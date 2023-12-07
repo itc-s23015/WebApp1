@@ -1,0 +1,8 @@
+const print = console.log
+const stream = require('fs')
+  .readFileSync('/dev/stdin', 'utf8')
+  .trim()
+const lines = stream.split('\n')
+
+N = 1231 + 5178
+print(N)
